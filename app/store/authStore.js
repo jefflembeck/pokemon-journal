@@ -132,8 +132,7 @@ class Auth {
           item.inventory_item_data.pokemon_data && item.inventory_item_data.pokemon_data.pokemon_id
         ).map((item) => {
           const pokemon = item.inventory_item_data.pokemon_data;
-          const meta = POKEMON_META.find(poke => poke.id === pokemon.pokemon_id);
-          console.log(meta);
+          const meta = POKEMON_META.find(poke => poke.id == pokemon.pokemon_id);
           return {
             ...pokemon,
             ...calculateCP(pokemon),

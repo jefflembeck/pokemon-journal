@@ -1659,6 +1659,28 @@ const pokemons = [
     "weight": "4.0 kg",
     "candy": "None",
     "egg": "Not in Eggs"
+  },
+  {
+    "id":"172",
+    "num":"172",
+    "name":"Pichu",
+    "img":"http://www.serebii.net/pokemongo/pokemon/172.png",
+    "type": "Electric",
+    "height": "0.41 m",
+    "weight": "4.0 kg",
+    "candy": "25 Pikachu Candy",
+    "egg": "5 km"
+  },
+  {
+    "id":"239",
+    "num":"239",
+    "name":"Elekid",
+    "img":"http://www.serebii.net/pokemongo/pokemon/239.png",
+    "type": "Electric",
+    "height": "0.41 m",
+    "weight": "4.0 kg",
+    "candy": "25 Electabuzz Candy",
+    "egg": "10 km"
   }
 ];
 
